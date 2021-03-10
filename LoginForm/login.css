@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+h3{
+    color: white;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+}
+
+form{
+    background-color: #6E0D25;
+    margin: 0 auto;
+    margin-top:160px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid salmon;
+    text-align: center;
+}
+
+label{
+    margin-right: 112px;
+    color: white;
+    font-style: italic;
+
+}
+
+input{
+    margin-top: 3px;
+    width: 185px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: salmon;
+}
+
+::placeholder{
+    color: salmon;
+    font-style: italic;
+    font-size: 10px;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-style: oblique;
+    color: salmon;
+    background-color: white;
+    border-color: salmon;
+}
